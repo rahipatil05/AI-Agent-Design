@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* NAVBAR MAIN */
+.navbar {
+    width: 100%;
+    height: 90px;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    /* position: fixed; */
+}
+
+/* LOGO */
+.logo h1 {
+    margin-left: 20px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* MENU */
+.menu-sections ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-sections ul li {
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.menu-sections ul li:hover {
+    color: #888888;
+}
